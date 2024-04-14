@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedeEMP - Fórum</title>
+    <style>
+        /* Estilos básicos, você pode personalizar conforme necessário */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RedeEMP - Fórum</h1>
+    </header>
+    <nav>
+        <a href="#">Início</a> |
+        <a href="#">Tópicos</a> |
+        <a href="#">Sobre</a> <!-- Adicione links conforme necessário -->
+    </nav>
+    <section>
+        <h2>Login</h2>
+        <form action="#" method="post">
+            <input type="text" name="username" placeholder="Usuário" required>
+            <input type="password" name="password" placeholder="Senha" required>
+            <input type="submit" value="Login">
+        </form>
+        <h2>Registro</h2>
+        <form action="#" method="post">
+            <input type="text" name="username" placeholder="Usuário" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Senha" required>
+            <input type="password" name="confirm_password" placeholder="Confirmar Senha" required>
+            <input type="submit" value="Registrar">
+        </form>
+    </section>
+    <footer>
+        &copy; 2024 RedeEMP - Todos os direitos reservados.
+    </footer>
+</body>
+</html>
